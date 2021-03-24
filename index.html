@@ -264,7 +264,7 @@
     }
 
     .sub-header {
-        width: calc(var(--subheaderSize) - 20px);
+        max-width: calc(var(--subheaderSize) - 20px);
         font-size: 22px;
         margin-top: 4px;
         text-decoration: underline;
@@ -315,13 +315,15 @@
         content: '';
         width: 20px;
         height: 20px;
-        margin-right: 2px;
+        margin-right: 5px;
         display: inline-block;
         filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(442deg) brightness(104%) contrast(97%);
     }
 
     .ico {
         padding-right: 10px;
+        display: inline-block;
+        font-style: normal;
     }
 
     .i-js::before {
