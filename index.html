@@ -14,8 +14,8 @@
         <div class="name gradient">SIVARAJAN SIVANESAN</div>
         <div>10 Years of Experience | Full Stack Developer | JS Wizard | C# Expert</div>
         <div class="contacts">
-            <a href="mailto:sivarajan.nesan@gmail.com">sivarajan.nesan@gmail.com</a>
             <a href="tel:+919994777091">+91-999-4777-091</a>
+            <a href="mailto:sivarajan.nesan@gmail.com">sivarajan.nesan@gmail.com</a>
         </div>
         <div class="social-media">
             <a href="https://github.com/sivarajans" target="_blank">
@@ -25,7 +25,7 @@
                     </path>
                 </svg>
                 sivarajans</a>
-            <a href="https://twitter.com/_sivarajans" target="_blank">
+            <!-- <a href="https://twitter.com/_sivarajans" target="_blank">
                 <svg viewBox="0 0 24 24" hight="15" width="15">
                     <g>
                         <path
@@ -34,7 +34,7 @@
                     </g>
                 </svg>
                 _sivarajans
-            </a>
+            </a> -->
             <a href="https://www.linkedin.com/in/sivarajans" target="_blank">
                 <svg width="12" height="12" viewBox="0 0 34 34">
                     <g>
@@ -62,7 +62,8 @@
                             <div class="section">
                                 <div class="position">Senior Development Engineer at Pramati Technologies (August 2018 -
                                     Present) </div>
-                                <p>Credential provider for windows login, pluggable JS libraries, Refactored the authenticator to plug in many client projects.
+                                <p>Credential provider for windows login, pluggable JS libraries, Refactored the
+                                    authenticator to plug in many client projects.
                                 </p>
                             </div>
                             <div class="section">
@@ -192,10 +193,7 @@
 
 </body>
 <style>
-    :root {
-        --subheaderSize: 120px;
-    }
-
+   
     body {
         border: 1px solid #8080801a;
         border-radius: 3px;
@@ -209,7 +207,7 @@
     .main {
         clear: both;
         border-top: 1px solid #e8e1f5;
-        padding-top: 15px;
+        padding-top: 5px;
         color: #615a60;
     }
 
@@ -241,8 +239,10 @@
         color: #b32394;
     }
 
-    .contacts {
+    .contacts,
+    .social-media {
         line-height: 1.5;
+        display: inline-block;
     }
 
     .social-media svg {
@@ -252,6 +252,7 @@
     a {
         text-decoration: none;
         padding: 0 0 0 10px;
+        display: inline-block;
     }
 
 
@@ -259,12 +260,12 @@
         float: right;
         text-align: right;
         display: block;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         font-variant: all-petite-caps;
     }
 
     .sub-header {
-        max-width: calc(var(--subheaderSize) - 20px);
+        max-width: 100px;
         font-size: 22px;
         margin-top: 4px;
         text-decoration: underline;
