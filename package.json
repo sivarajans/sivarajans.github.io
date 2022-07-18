@@ -1,0 +1,20 @@
+{
+  "name": "sivarajans.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "npx angular-cli-ghpages --dir=../sivarajans/dist",
+    "publish": "npm run deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sivarajans/sivarajans.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sivarajans/sivarajans.github.io/issues"
+  },
+  "homepage": "https://github.com/sivarajans/sivarajans.github.io#readme"
+}
